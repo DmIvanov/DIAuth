@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "DIAuth"
   s.version          = "0.1.0"
-  s.summary          = "A short description of DIAuth."
+  s.summary          = "iOS library for two step authorization: social network auth + own server auth"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,12 +19,11 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/DIAuth"
+  s.homepage         = "https://github.com/DmIvanov/DIAuth"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Dmitry Ivanov" => "topolog@icloud.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/DIAuth.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/DmIvanov/DIAuth.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
@@ -36,5 +35,9 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'KeychainAccess'
+  s.dependency 'VK-ios-sdk'
+  s.dependency 'FBSDKCoreKit'
+  s.dependency 'FBSDKLoginKit'
+  
 end
