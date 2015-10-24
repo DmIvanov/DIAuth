@@ -1,0 +1,6 @@
+framework module Pods_DIAuth_Example {
+  umbrella header "Pods-DIAuth_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
