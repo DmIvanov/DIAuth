@@ -1,6 +1,0 @@
-framework module DIAuth {
-  umbrella header "DIAuth-umbrella.h"
-
-  export *
-  module * { export * }
-}

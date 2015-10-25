@@ -1,6 +1,0 @@
-framework module Pods_DIAuth_Tests {
-  umbrella header "Pods-DIAuth_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
