@@ -1,5 +1,3 @@
-iOS authorization module for two step authorization: social network auth + own server auth (optional)
-
 # DIAuth
 
 [![CI Status](http://img.shields.io/travis/Dmitry Ivanov/DIAuth.svg?style=flat)](https://travis-ci.org/Dmitry Ivanov/DIAuth)
