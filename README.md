@@ -11,14 +11,25 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+- iOS 8.0+
+
 ## Installation
 
-DIAuth is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+###Manualy
+
+You can integrate DIAuth into your project manually as a submodule. Core files are in (DIAuth/tree/master/DIAuth/DIAuth)
+
+###Cocoapods
+
+Now we have some issues connected with interactions between DIAuth as a pod, FBSDK and Bolts.framework (DIAuth dependensies). It looks like the SO issue http://stackoverflow.com/questions/29435377/facebook-ios8-sdk-build-module-error-for-fbsdkcorekit but all of those solutions didn't help with DIAuth pod.
+
+~~DIAuth is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:~~
 
 ```ruby
 pod "DIAuth"
 ```
+
 
 ## Author
 
