@@ -135,6 +135,14 @@ And of course don't forget about your new social network in your `DIAuthConnecto
 
 You can integrate DIAuth into your project manually as a submodule. Core files are [here](https://github.com/DmIvanov/DIAuth/tree/master/DIAuth/DIAuth)
 
+DIAuth uses SocialNetwork SDKs and KeyChain wrapper, so you need to add them in your code (manualy or addin them into your podfile)
+```ruby
+pod 'KeychainAccess'
+pod 'VK-ios-sdk'
+pod 'FBSDKCoreKit'
+pod 'FBSDKLoginKit'
+```
+
 ###Cocoapods
 
 Now we have some issues connected with interactions between DIAuth as a pod, FBSDK and Bolts.framework (DIAuth dependensies). It looks like the SO issue http://stackoverflow.com/questions/29435377/facebook-ios8-sdk-build-module-error-for-fbsdkcorekit but all of those solutions didn't help with DIAuth pod.
