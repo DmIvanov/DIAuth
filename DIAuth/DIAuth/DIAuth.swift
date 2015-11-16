@@ -150,6 +150,11 @@ public class DIAuth {
         setNewState(.WaitingForUser)
     }
     
+    public func currentSocialNetwork() -> DISocialNetwork? {
+        return DISocialNetwork.currentNetwork
+    }
+
+    
     
     //MARK: Events from appDelegate
     public func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]!) {
