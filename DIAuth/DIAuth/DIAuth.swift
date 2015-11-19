@@ -48,6 +48,12 @@ public enum DIAuthStatus: String {
     case Authorised = "Authorised"
     
     /**
+    Intermediate state, when sn-authorization succeded, 
+    but server authorization
+    */
+    case Revoke = "Revoke"
+    
+    /**
     Server authorization failed
     */
     case Failed = "Failed"
@@ -152,6 +158,14 @@ public class DIAuth {
     
     public func currentSocialNetwork() -> DISocialNetwork? {
         return DISocialNetwork.currentNetwork
+    }
+    
+    public func resetServerAuth() {
+        setNewState(.Revoke)
+    }
+    
+    public func restoreServerAuth() {
+        startServerAuth()
     }
 
     
