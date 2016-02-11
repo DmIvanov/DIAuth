@@ -143,7 +143,7 @@ pod 'FBSDKCoreKit'
 pod 'FBSDKLoginKit'
 ```
 
-###Cocoapods
+###CocoaPods
 
 Now we have some issues connected with interactions between DIAuth as a pod, FBSDK and Bolts.framework (DIAuth dependensies). It looks like the SO issue http://stackoverflow.com/questions/29435377/facebook-ios8-sdk-build-module-error-for-fbsdkcorekit but all of those solutions didn't help with DIAuth pod.
 
