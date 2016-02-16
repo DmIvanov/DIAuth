@@ -127,7 +127,7 @@ And of course don't forget about your new social network in your `DIAuthConnecto
 
 ## Requirements
 
-- iOS 7.0+, xCode 7.0+
+- iOS 7.0+, Xcode 7.0+
 
 ## Installation
 
