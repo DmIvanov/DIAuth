@@ -1,6 +1,5 @@
 # DIAuth
 
-[![CI Status](http://img.shields.io/travis/Dmitry Ivanov/DIAuth.svg?style=flat)](https://travis-ci.org/Dmitry Ivanov/DIAuth)
 [![Version](https://img.shields.io/cocoapods/v/DIAuth.svg?style=flat)](http://cocoapods.org/pods/DIAuth)
 [![License](https://img.shields.io/cocoapods/l/DIAuth.svg?style=flat)](http://cocoapods.org/pods/DIAuth)
 [![Platform](https://img.shields.io/cocoapods/p/DIAuth.svg?style=flat)](http://cocoapods.org/pods/DIAuth)
@@ -157,7 +156,7 @@ pod "DIAuth"
 
 ## Author
 
-Dmitry Ivanov, topolog@icloud.com
+Dmitry Ivanov
 
 ## License
 
